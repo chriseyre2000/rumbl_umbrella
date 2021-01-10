@@ -1,6 +1,7 @@
 {application,rumbl,
              [{applications,[kernel,stdlib,elixir,logger,runtime_tools,
-                             phoenix_pubsub,ecto_sql,postgrex,jason]},
+                             phoenix_pubsub,ecto_sql,postgrex,jason,comeonin,
+                             pbkdf2_elixir,sweet_xml]},
               {description,"rumbl"},
               {modules,['Elixir.Rumbl','Elixir.Rumbl.Accounts',
                         'Elixir.Rumbl.Accounts.Credential',
